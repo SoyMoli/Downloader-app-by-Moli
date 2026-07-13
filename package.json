@@ -1,0 +1,33 @@
+{
+  "name": "downloader-app-by-moli",
+  "version": "1.0.0",
+  "description": "Universal Video Downloader App with integrated browser",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-native": "0.73.2",
+    "expo": "~50.0.0",
+    "react-native-webview": "13.8.5",
+    "react-native-fs": "2.20.0",
+    "react-native-vector-icons": "10.0.0",
+    "@react-navigation/native": "6.1.9",
+    "@react-navigation/bottom-tabs": "6.5.11",
+    "react-native-screens": "3.27.0",
+    "react-native-safe-area-context": "4.8.2",
+    "react-native-gesture-handler": "2.14.1",
+    "i18next": "23.7.6",
+    "react-i18next": "13.5.0",
+    "axios": "1.6.2",
+    "@react-native-async-storage/async-storage": "1.21.0",
+    "react-native-share": "10.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.0"
+  },
+  "private": true
+}
